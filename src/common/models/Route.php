@@ -4,7 +4,7 @@ use yii\base\Model;
 
 /**
  * Class Route
- * @package backend\models
+ * @package old_backend\models
  */
 class Route extends Model
 {

@@ -29,7 +29,7 @@ return [
     'Development' => [
         'path' => 'dev',
         'setWritable' => [
-            'src/backend/runtime',
+            'src/old_backend/runtime',
             'src/frontend/runtime',
             'web/assets',
         ],
@@ -37,14 +37,14 @@ return [
             'bin/yii',
         ],
         'setCookieValidationKey' => [
-            'src/backend/config/main-local.php',
+            'src/old_backend/config/main-local.php',
             'src/frontend/config/main-local.php',
         ],
     ],
     'Production' => [
         'path' => 'prod',
         'setWritable' => [
-            'src/backend/runtime',
+            'src/old_backend/runtime',
             'src/frontend/runtime',
             'web/assets',
         ],
@@ -52,7 +52,7 @@ return [
             'bin/yii',
         ],
         'setCookieValidationKey' => [
-            'src/backend/config/main-local.php',
+            'src/old_backend/config/main-local.php',
             'src/frontend/config/main-local.php',
         ],
     ],

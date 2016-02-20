@@ -1,10 +1,10 @@
 <?php
 
 return [
-    '/' => 'dashboard/dashboard',
-    'login' => 'security/login',
-    'signup' => 'security/register',
-    'logout' => 'security/logout',
+    //'/' => 'dashboard/dashboard',
+    'login' => 'backend/security/login',
+    'signup' => 'backend/security/register',
+    'logout' => 'backend/security/logout',
 
     '<controller:\w+>/<id:\d+>' => '<controller>/view',
     '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',

@@ -82,7 +82,7 @@ class m140506_102106_rbac_init extends \yii\db\Migration
 
         // Permissions
         $accessBackend = $authManager->createPermission('accessBackend');
-        $accessBackend->description = 'Can access backend';
+        $accessBackend->description = 'Can access old_backend';
         $authManager->add($accessBackend);
 
         $administrateRBAC = $authManager->createPermission('administrateRBAC');

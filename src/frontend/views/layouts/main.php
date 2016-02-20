@@ -39,14 +39,7 @@ AppAsset::register($this);
                 <div class="large-9 columns">
                     <ul id="menu-header" class="nav-bar horizontal">
                         <li class="active"><a href="/">Home</a></li>
-                        <li><a href="/acp/">ACP</a></li>
-                    </ul>
-                </div>
-                <div class="large-3 columns">
-                    <ul id="language" class="lang-bar horizontal">
-                        <li class="active" lang="en"><a i18n="lang_en">Eng</a></li>
-                        <li lang="ru"><a i18n="lang_ru">Рус</a></li>
-                        <li lang="ua"><a i18n="lang_ua">Укр</a></li>
+                        <li><a href="/admin/">ACP</a></li>
                     </ul>
                 </div>
             </div>

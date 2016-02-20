@@ -53,7 +53,7 @@ $user = Yii::$app->user->identity;
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <?= $this->render('//menu/top-menu') ?>
+            <?= $this->render('/menu/top-menu') ?>
 
             <div class="navbar-custom-menu">
                 <ul class="nav navbar-nav">
@@ -90,7 +90,7 @@ $user = Yii::$app->user->identity;
     <!-- Left side column. contains the sidebar -->
     <aside class="main-sidebar">
         <section class="sidebar">
-            <?= $this->render('//menu/sidebar-menu') ?>
+            <?= $this->render('/menu/sidebar-menu') ?>
         </section>
     </aside>
 

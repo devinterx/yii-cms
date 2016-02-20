@@ -21,7 +21,6 @@ class AppAsset extends AssetBundle
         'css/frontend.css',
     ];
     public $js = [
-        'js/jquery.i18n.min.js',
         'js/frontend.js'
     ];
     public $depends = [

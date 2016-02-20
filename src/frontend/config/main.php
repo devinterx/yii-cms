@@ -13,7 +13,10 @@ return [
     'controllerNamespace' => 'frontend\controllers',
 
     'modules' => [
-        'api'
+        'api',
+        'admin' => [
+            'class'  => backend\Module::class
+        ]
     ],
 
     'components' => [
