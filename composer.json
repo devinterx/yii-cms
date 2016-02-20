@@ -1,0 +1,56 @@
+{
+	"name": "devinterx/yii2-cms",
+	"description": "Yii2 CMS",
+	"homepage": "https://bitbucket.org/devinterx/yii2-cms/",
+	"type": "project",
+	"license": "BSD-3-Clause",
+	"support": {
+		"source": "https://bitbucket.org/devinterx/yii2-cms"
+	},
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=5.5.0",
+		"ext-gd": "*",
+		"ext-pdo_sqlite": "*",
+		"ext-intl": "*",
+
+		"yiisoft/yii2": "*",
+		"yiisoft/yii2-bootstrap": "*",
+		"yiisoft/yii2-swiftmailer": "*",
+		"yiisoft/yii2-debug": "*",
+		"yiisoft/yii2-gii": "*",
+		"yiisoft/yii2-faker": "*",
+        "yiisoft/yii2-jui": "*",
+
+        "creocoder/yii2-flysystem": "0.8.*",
+        "league/flysystem-copy": "~1.0",
+
+		"kartik-v/yii2-grid": "@dev",
+		"kartik-v/yii2-mpdf": "@dev",
+		"kartik-v/yii2-editable": "dev-master",
+		"kartik-v/yii2-datecontrol": "@dev",
+        "kartik-v/yii2-widgets": "@dev",
+
+		"himiklab/yii2-recaptcha-widget" : "*",
+		"fxp/composer-asset-plugin": "*",
+		"bower-asset/slimScroll": "*",
+		"bower-asset/iCheck": "*",
+		"bower-asset/bootbox": "*",
+		"bower-asset/fastclick": "*"
+	},
+	"config": {
+		"process-timeout": 1800,
+		"vendor-dir": "src/vendor"
+	},
+	"extra": {
+		"asset-installer-paths": {
+			"npm-asset-library": "src/vendor/npm",
+			"bower-asset-library": "src/vendor/bower"
+		}
+	},
+	"scripts": {
+		"compile": [
+			"php bin/yii migrate --interactive=0"
+		]
+	}
+}
