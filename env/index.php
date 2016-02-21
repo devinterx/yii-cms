@@ -29,30 +29,38 @@ return [
     'Development' => [
         'path' => 'dev',
         'setWritable' => [
-            'src/old_backend/runtime',
+            'src/backend/runtime',
             'src/frontend/runtime',
+            'src/console/runtime',
             'web/assets',
+            'data',
+            'data/upload'
         ],
         'setExecutable' => [
             'bin/yii',
+            'bin/init',
         ],
         'setCookieValidationKey' => [
-            'src/old_backend/config/main-local.php',
+            'src/backend/config/main-local.php',
             'src/frontend/config/main-local.php',
         ],
     ],
     'Production' => [
         'path' => 'prod',
         'setWritable' => [
-            'src/old_backend/runtime',
+            'src/backend/runtime',
             'src/frontend/runtime',
+            'src/console/runtime',
             'web/assets',
+            'data',
+            'data/upload'
         ],
         'setExecutable' => [
+            'bin/init',
             'bin/yii',
         ],
         'setCookieValidationKey' => [
-            'src/old_backend/config/main-local.php',
+            'src/backend/config/main-local.php',
             'src/frontend/config/main-local.php',
         ],
     ],
