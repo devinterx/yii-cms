@@ -37,6 +37,7 @@ echo LTEMenu::widget(
                 'options' => [
                     'class' => 'treeview',
                 ],
+                'active' => Yii::$app->request->url === Yii::$app->homeUrl,
                 'visible' => Yii::$app->user->can('BViewUsers'),
                 'items' => [
                     [
@@ -54,6 +55,7 @@ echo LTEMenu::widget(
                 'options' => [
                     'class' => 'treeview',
                 ],
+                'active' => Yii::$app->request->url === Yii::$app->homeUrl,
                 'visible' => (
                     Yii::$app->user->can('BViewAssignments') ||
                     Yii::$app->user->can('BViewRoles') ||
