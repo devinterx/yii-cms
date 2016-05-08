@@ -208,7 +208,7 @@ class m140506_102106_rbac_init extends \yii\db\Migration
         $authManager->addChild($admin, $accessBackend);
         $authManager->addChild($admin, $administrateRBAC);
 
-        $authManager->assign($admin, 1);
+        //$authManager->assign($admin, 1);
     }
 
     public function down()
