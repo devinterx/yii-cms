@@ -11,6 +11,7 @@ class Module extends BaseModule
     public $layout = 'main';
     public $layoutPath = __DIR__ . '/views/layouts';
     public $viewPath = __DIR__ . '/views';
+    public $modulePath = __DIR__;
 
     public function init()
     {

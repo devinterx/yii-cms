@@ -17,6 +17,10 @@ $menuItemsMain = [
             ],
         ],
     ],
+    [
+        'label' => '<i class="fa fa-cog"></i> ' . Yii::t('app', 'Installer'),
+        'url' => ['installer/index'],
+    ]
 ];
 
 echo Nav::widget([
